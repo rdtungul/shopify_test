@@ -232,11 +232,28 @@
               "title": "This is a Content Block 1",
               "sub-title": "<p>This is a  sample paragraph for Content Block 1.<\/p>"
             }
+          },
+          "143bcc91-3b98-4874-8635-2dfced69f3bd": {
+            "type": "image",
+            "settings": {
+              "color": "#fafafa",
+              "product": "sample",
+              "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg"
+            }
+          },
+          "cba82cba-b251-48d8-a921-b270863b2b47": {
+            "type": "text",
+            "settings": {
+              "title": "Content Block 2",
+              "sub-title": "<p>This is a  sample paragraph for Content Block 1.<\/p>"
+            }
           }
         },
         "block_order": [
           "18168e9e-af8f-408a-a3bb-0eb12a3bcdf2",
-          "3ae3daba-5f63-4e4e-accd-a6430b9cef12"
+          "3ae3daba-5f63-4e4e-accd-a6430b9cef12",
+          "143bcc91-3b98-4874-8635-2dfced69f3bd",
+          "cba82cba-b251-48d8-a921-b270863b2b47"
         ],
         "settings": {
         }
