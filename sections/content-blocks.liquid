@@ -1,12 +1,9 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{% for block in section.blocks %}
 
-{% stylesheet %}
-{% endstylesheet %}
+  {% if block.type == 'image' %}
+    {% include 'custom-image' %}
+    {% elsif block.type == 'text' %}
+      {% include 'custom-text' %}
+  {% endif %}
 
-{% javascript %}
-{% endjavascript %}
+{% endfor %}
