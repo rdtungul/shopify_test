@@ -1,0 +1,22 @@
+<div class="page-width">
+  <div class="section-header text-center">
+    <h2>
+      {{ block.product.title }}
+    </h2>
+  </div>
+  <ul class="grid grid--uniform grid--view-items">
+    <li class="grid__item grid__item--featured-collections small--one-half medium-up--one-third">
+      <div class="grid-view-item product-card">
+        <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 200px;" />
+        <p>{{ block.settings.block-text }}</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<style>
+  .page-width {
+    background-color: {{ block.settings.color }};
+  }
+</style>
