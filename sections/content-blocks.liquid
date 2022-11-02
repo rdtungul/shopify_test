@@ -7,3 +7,55 @@
   {% endif %}
 
 {% endfor %}
+
+
+{% schema %}
+  {
+    "name": "Content Blocks",
+    "blocks": [
+      {
+        "type": "custom-image",
+        "name": "Custom Image",
+        "settings": [
+          {
+            "type": "color",
+            "id": "color",
+            "label": "Choose a Color"           
+          },
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Choose a Product"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Choose an Image"
+          }
+        ]
+      },
+      {
+        "type": "custom-text",
+        "name": "Custom Text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Create Title"           
+          },
+          {
+            "type": "richtext",
+            "id": "sub-title",
+            "label": "Create Sub-title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Content Blocks",
+        "category": "Images"
+      }
+    ]
+  }
+{% endschema %}
